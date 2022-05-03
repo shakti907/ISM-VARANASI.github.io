@@ -1,0 +1,159 @@
+.body{
+  background-color: rgb(13, 150, 184);
+}
+.container1{
+    margin-left: 12.5rem;
+    /* margin-right: 125rem; */
+    height: 1.875rem;
+    width: 70%;
+    background-color: rgb(7, 90, 122);
+    text-align: center;
+   
+}
+.container2{
+  background-color:rgb(7, 90, 122);
+  height: 3.125 rem;
+  width: auto;
+  
+}
+.container3{
+margin-right: auto;
+padding: auto;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(3, 247, 97);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  .row{
+      margin-left:0.313rem;
+      margin-right:0.313rem;
+  }
+  .logo-s{
+      padding-left: 1.25rem;
+      padding-top: 1.563rem;
+      height: 9.375rem;
+  }
+  div{
+    display: block;
+    padding-left: 0.625rem;
+  }
+  button { 
+    height: 3.125rem;
+    width: 9.375rem;
+    margin-left:75%;
+   margin-top: 4.375rem;
+    background-color:#2E8B57;
+    color: white;
+    
+    background-image:linear-gradient(rgb(8, 196, 243),rgb(75, 15, 189),rgb(8, 196, 243));
+    border: 0.125rem dashed yellowgreen;
+    cursor: pointer;
+    
+  }
+  
+   button:hover {
+    opacity: 0.8;
+  } 
+  .slider-image{
+    height: 21.875rem;
+  }
+  font{
+    color: white;
+  }
+
+ 
+.container4{
+  padding-top:  0.313rem;
+  padding-left: 0.313rem;
+ 
+  border: none;
+ 
+}
+.card-image{
+  position: relative;
+  width: fit-content;
+  
+}
+.cardnew{
+  display: inline-block;
+  width: 25%;
+  padding-left:1.563rem;
+ 
+  padding-top: 3.125rem;
+  
+}
+table{
+  border: 1rem solid black;
+}
+.whatsapp{
+     position: fixed;
+     bottom: 1.25rem;
+     right: 1.25rem;
+    
+
+}
+.enquiry{
+  text-align: center;
+  padding-right: 0.5rem;
+   /* background-color: ; */
+  writing-mode: vertical-rl;
+  background-image:-webkit-linear-gradient(red ,yellow);
+  position:fixed;
+  bottom:40%;
+  right:0;
+  width:3.125rem;
+  height:12.5rem ;
+}
+#notification{
+  overflow: scroll;
+ overflow-x:visible;
+  background-color: white;
+  
+  margin-left:12.5rem;
+  bottom: 25rem;
+  scroll-behavior: smooth;
+  width: 30rem;
+  height:35rem ;
+}
+.rotate{
+  animation: rotation 4s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.quoto{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-5 .btn2{
+  font-size: 0.938rem;
+  height: 1.99rem;
+  text-align: center;
+}
+footer{
+ 
+  background-color: rgb(7, 90, 122);
+}
+h5{
+  text-align: center;
+  padding-bottom: .725rem;
+}
