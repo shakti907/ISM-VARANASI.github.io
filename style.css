@@ -180,7 +180,8 @@ h3{
   height: 15rem;
   border-color: rgb(47, 92, 104);;
   border-radius: 0.5rem ;
-  background-color: rgb(62, 161, 185);
+  background: rgb(27, 238, 8);
+  background:linear-gradient(0deg,rgb(171, 157, 209) 0%,rgb(159, 209, 238) 100%);
   box-shadow: 0.125rem 0.125rem currentColor;
   border-style:dashed ;
   perspective: 15rem;
@@ -190,7 +191,44 @@ h3{
   height: 13rem;
   padding: 1rem;
   position: absolute;
-  border: 1px dashed currentColor;
-  background-color: rgb(50, 28, 129);
+  border: 0.13rem dashed currentColor;
+  background: yellow;
+  background:linear-gradient(0deg,rgb(50, 28, 129) 0%,rgb(110, 207, 245) 100%);
   transform: rotateX(20deg);
+}
+#perspective:hover{
+  background: pink;
+  background: linear-gradient(rgb(4, 150, 24) 0%,rgb(126, 231, 100) 100%);
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  transform: scale(10.125rem);
+}
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500rem;
+  font-size: 1rem;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  background: linear-gradient(rgb(68, 68, 179) 0%,rgb(100, 223, 231) 100%);
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  transform: scale(10.125rem);
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  transform: scale(1.025);
 }
