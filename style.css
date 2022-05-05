@@ -11,9 +11,11 @@
    
 }
 .container2{
+  
   background-color:rgb(7, 90, 122);
-  height: 3.125 rem;
-  width: auto;
+  height: 3.0 rem;
+  width: 100%;
+  
   
 }
 .container3{
@@ -231,4 +233,19 @@ h3{
 .button-88:active {
   box-shadow: 0 0.3em 1em -0.5em #14a73e98;
   transform: scale(1.025);
+}
+@media(max-width:998px){
+  html{
+    font-size: 60%;
+  }
+}
+@media(max-width:768px){
+      html{
+        font-size: 45%;
+      }
+}
+@media(max-width:524px){
+  html{
+    font-size: 20%;
+  }
 }
