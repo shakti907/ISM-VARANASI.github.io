@@ -17,6 +17,7 @@
 }
 .container2{
   display: flex;
+  align-items: center;
   background-color:rgb(7, 90, 122);
    
   /* width: 100%; */
@@ -47,9 +48,14 @@ a:link {
      display: flex;
      align-items: center;
      margin-left: 2rem;
-     padding-bottom: 2rem 2rem 4.5rem 0;
+     /* padding-bottom: 2rem 2rem 4.5rem 0; */
       /* margin-left:0.313rem;
       margin-right:0.313rem; */
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
   }
   .logo-s{
       padding-left: 1.25rem;
