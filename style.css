@@ -1,20 +1,25 @@
 .body{
   background-color: rgb(13, 150, 184);
+  display: flex;
+  align-items: center;
 }
 .container1{
-    margin-left: 12.5rem;
+  display: flex;
+  align-items: center;
+    margin-left: 12.5rem ;
+    padding:0 12.5rem 0 16.5rem ;
     /* margin-right: 125rem; */
     height: 1.875rem;
     width: 70%;
     background-color: rgb(7, 90, 122);
-    text-align: center;
+    /* text-align: center; */
    
 }
 .container2{
-  
+  display: flex;
   background-color:rgb(7, 90, 122);
-  height: 3.0 rem;
-  width: 100%;
+   
+  /* width: 100%; */
   
   
 }
@@ -39,8 +44,12 @@ a:link {
   }
  
   .row{
-      margin-left:0.313rem;
-      margin-right:0.313rem;
+     display: flex;
+     align-items: center;
+     margin-left: 2rem;
+     padding-bottom: 2rem 2rem 4.5rem 0;
+      /* margin-left:0.313rem;
+      margin-right:0.313rem; */
   }
   .logo-s{
       padding-left: 1.25rem;
@@ -52,6 +61,7 @@ a:link {
     padding-left: 0.625rem;
   }
   button { 
+   
     height: 3.125rem;
     width: 9.375rem;
     margin-left:75%;
