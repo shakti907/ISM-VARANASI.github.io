@@ -254,14 +254,23 @@ h3{
   html{
     font-size: 60%;
   }
+  #ab{
+    visibility: hidden;
+  }
 }
 @media(max-width:768px){
       html{
         font-size: 45%;
       }
+      #ab{
+        visibility: hidden;
+      }
 }
 @media(max-width:524px){
   html{
     font-size: 20%;
+  }
+  #ab{
+    visibility: hidden;
   }
 }
