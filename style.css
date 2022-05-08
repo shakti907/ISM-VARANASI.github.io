@@ -16,15 +16,16 @@
    
 }
 .container2{
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   background-color:rgb(7, 90, 122);
    
-  /* width: 100%; */
+  width: 100%;
   
   
 }
 .container3{
+
 margin-right: auto;
 padding: auto;
 }
@@ -46,16 +47,16 @@ a:link {
  
   .row{
      display: flex;
-     align-items: center;
+     flex-direction: row;
      margin-left: 2rem;
-     /* padding-bottom: 2rem 2rem 4.5rem 0; */
-      /* margin-left:0.313rem;
-      margin-right:0.313rem; */
+     padding-bottom: 2rem 2rem 4.5rem 0;
+      margin-left:0.313rem;
+      margin-right:0.313rem;
   }
   .button{
     display: flex;
     align-items: center;
-    margin: 1.5rem;
+   
   }
   .logo-s{
       padding-left: 1.25rem;
@@ -94,9 +95,10 @@ a:link {
  
 .container4{
   display: flex;
+  flex-direction: row;
   padding-top:  0.313rem;
   padding-left: 0.313rem;
- 
+  width: 100%;
   border: none;
  
 }
@@ -162,9 +164,10 @@ table{
 }
 .quoto{
   position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  top:50%;
+  right:50%;
+  transform: translate(-50%, -50%); 
 }
 .section-5 .btn2{
   font-size: 0.938rem;
@@ -259,18 +262,39 @@ h3{
   }
 }
 @media(max-width:768px){
-      html{
-        font-size: 45%;
+      .row{
+        flex-direction: column;
+       
       }
-      #ab{
-        visibility: hidden;
+      .container4{
+        flex-direction: column;
+        padding: 0%;
+        margin: auto;
+      }
+      .container3{
+       
+        /* width: 100%; */
+      }
+      img{
+
+       height: auto;
+      }
+      .quoto{
+        height: auto;
       }
 }
-@media(max-width:524px){
-  html{
-    font-size: 20%;
+/* @media(max-width:524px){
+  .row{
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
   }
-  #ab{
-    visibility: hidden;
+  .container4{
+    flex-direction: column;
+    padding: 0%;
+    margin: auto;
   }
-}
+  .container3{
+    /* width: 100%; */
+  }
+} */

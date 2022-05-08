@@ -1,0 +1,100 @@
+
+*{
+    box-sizing: border-box;
+}
+input[type=text],textarea,email{
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.0125rem solid #ccc;
+    border-radius: 0.25rem;
+    resize: vertical;
+}
+label{
+    padding: 0.75rem 0.75rem 0.75rem 0;
+    display: inline-block;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 0.3rem;
+}
+.col75{
+    float: left;
+    width: 50%;
+    margin-top: 0.3rem;
+}
+.container{
+    /* width: 50%;
+   margin: auto; */
+   
+   
+    border-radius: 0.3125rem;
+    background-color: rgb(199, 235, 235);
+    padding: 1rem;
+}
+input[type=submit]{
+   
+    color: white;
+    background-color: rgb(16, 155, 16);
+    padding: 0.75rem 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor:pointer; 
+    float: right;
+}
+/* model background */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    background-color: #474e5d;
+    padding-top: 3.0125rem;
+
+}
+.modal-content{
+    background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 0.0625rem solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+}
+.close{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

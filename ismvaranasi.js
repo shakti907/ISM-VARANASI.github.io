@@ -1,9 +1,9 @@
-$(function(){
-    $("#addClass").click(function () {
-      $('#sidebar_secondary').addClass('popup-box-on');
-        });
-      
-        $("#removeClass").click(function () {
-      $('#sidebar_secondary').removeClass('popup-box-on');
-        });
-    })
+var modal= document.getElementById("id01")
+
+// when the user click anywhere outside of the model close it
+window.onclick=function(event){
+
+  if(event.target==modal){
+    modal.style.display="none";
+  }
+}

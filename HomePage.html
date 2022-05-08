@@ -37,7 +37,10 @@
     ></script>
     <title>ISM-VARANASI</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css" /></head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Rstyle.css" />
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+  </head>
 <body>
     <!-- <nav class="navbar navbar-dark bg-dark"> -->
         <!-- Navbar content -->
@@ -76,7 +79,7 @@
         
  </div>
  <div class="container2">
-   <header > <nav class="navbar navbar-expand-lg navbar-light">
+   <header > <nav class="navbar  navbar-expand-lg navbar-light">
         <!-- Navbar content -->
         <!-- <a href="" class="navbar-brand ml-3">
             Ism:)<span style="color: #00e8e8">varanasi</span>
@@ -227,7 +230,48 @@
 <div class="whatsapp">
   <a href="https://wa.me/919648884036" target="_blank"><i class="fa fa-whatsapp" style="font-size : 5rem ;color:rgb(45, 224, 9)"></i></a> 
 </div>
-<a href=""  ><div class="enquiry"><font>Enquiry form</font> </div></a>
+<div class="enquiry" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" ><font>Enquiry form</font> </div>
+
+
+
+
+<div class="modal" id="id01">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="close model">&times;</span>
+   
+  <form class="modal-content"action="" method="get">
+    <div class="container">
+
+               <label for="fname" > First Name</label>
+              <input type="text" name="fname" id="fname" placeholder="first name..." required >
+
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname" placeholder="last name..." required>
+
+               <label for="mobile_number">Mobile Number</label>
+              <input type="text" name="mobile_number" id="mobile_number" placeholder="mobile number..." required>
+
+              <label for="Email_id">Email_id</label>
+               <input type="text" name="Email_id" id="Email_id" placeholder="email id..." required>
+
+      
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+         
+      <div class="row">
+          <input type="submit" value="submit">
+      </div>
+  </div> 
+ </form>
+
+</div>
+
+
+
+
+
+
+
+
 </div>
   
 <footer>

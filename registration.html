@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Rstyle.css">
+</head>
+<body>
+    
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >SignUP</button>
+    <div class="modal" id="id01">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="close model">&times;</span>
+         
+        <form class="modal-content"action="" method="get">
+          <div class="container">
+
+                     <label for="fname" > First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="first name..." required >
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="last name..." required>
+
+                     <label for="mobile_number">Mobile Number</label>
+                    <input type="text" name="mobile_number" id="mobile_number" placeholder="mobile number..." required>
+
+                    <label for="Email_id">Email_id</label>
+                     <input type="text" name="Email_id" id="Email_id" placeholder="email id..." required>
+
+            
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+               
+            <div class="row">
+                <input type="submit" value="submit">
+            </div>
+        </div> 
+       </form>
+    
+    </div>
+    <img src="pic1.jpg" alt="">
+   <script src="ismvaranasi.js"></script>
+</body>
+</html>
