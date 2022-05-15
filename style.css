@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .body{
   background-color: rgb(13, 150, 184);
   display: flex;
@@ -295,6 +299,6 @@ h3{
     margin: auto;
   }
   .container3{
-    /* width: 100%; */
+     width: 100%; 
   }
-} */
+}*/
