@@ -10,6 +10,7 @@
 .container1{
   display: flex;
   align-items: center;
+  flex-direction: row;
     margin-left: 12.5rem ;
     padding:0 12.5rem 0 16.5rem ;
     /* margin-right: 125rem; */
@@ -23,13 +24,15 @@
   /* display: flex; */
   /* align-items: center; */
   background-color:rgb(7, 90, 122);
-   
+  display: flex;
+  flex-direction: row;
   width: 100%;
   
   
 }
 .container3{
-
+  display: flex;
+  flex-direction: row;
 margin-right: auto;
 padding: auto;
 }
@@ -261,9 +264,9 @@ h3{
   html{
     font-size: 60%;
   }
-  #ab{
-    visibility: hidden;
-  }
+ .container1,.container2,.container3{
+   flex-direction: column;
+ }
 }
 @media(max-width:768px){
       .row{

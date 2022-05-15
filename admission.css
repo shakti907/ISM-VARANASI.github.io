@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(26, 138, 138);
+}
 label{
     display: inline-block;
     padding: 10px;
