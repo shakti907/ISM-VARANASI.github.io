@@ -7,3 +7,7 @@ window.onclick=function(event){
     modal.style.display="none";
   }
 }
+
+function myadmissionform(){
+  windows.location.href='admission_form.html'
+}
