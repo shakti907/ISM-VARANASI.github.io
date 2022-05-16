@@ -9,5 +9,5 @@ window.onclick=function(event){
 }
 
 function myadmissionform(){
-  windows.location.href='admission_form.html'
+ location.href='admission_form.html'
 }
